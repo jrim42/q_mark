@@ -6,6 +6,7 @@
 
 body {
     background-color: #000000;
+	font-family: HBIOS-SYS;
 }
 
 h1 {
@@ -29,23 +30,24 @@ input.underline {
     text-align: center;
 	background-color: transparent;
 	padding-bottom: 5px;
-    font-size: 15px;
+    font-size: 14px;
 	color: #ffffff;
     font-family: HBIOS-SYS;
 }
 
-.login {
+.find {
 	width: 500px;
 	margin: 200px auto auto auto;
 	text-align: center;
 }
 
-.login p {
-    font-size: 16px;
+.find p {
+    color: #ffffff;
+    font-size: 14px;
     font-family: HBIOS-SYS;
 }
 
-.login a {
+.find a {
     text-align: center;
 	color: #bbbbbb;
     font-size: 14px;
