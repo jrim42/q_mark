@@ -1,0 +1,53 @@
+@font-face {
+    src: url("../fonts/HBIOS-SYS-prop.ttf");
+    font-family: HBIOS-SYS;
+	font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background-color: #000000;
+}
+
+h1 {
+	border-bottom-width:1;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 70px;
+    margin-bottom: 10px;
+    color: #ffffff;
+    font-family: HBIOS-SYS;
+}
+
+input.underline { 
+	border-left-width:0; 
+	border-right-width:0; 
+	border-top-width:0; 
+	border-bottom-width:1;
+	outline: none;
+	width:160px;
+	height:16px;
+    text-align: center;
+	background-color: transparent;
+    font-size: 16px;
+	color: #ffffff;
+    font-family: HBIOS-SYS;
+}
+
+.login {
+	width: 500px;
+	margin: 200px auto auto auto;
+	text-align: center;
+}
+
+.login p {
+    font-size: 16px;
+    font-family: HBIOS-SYS;
+}
+
+.login a {
+    text-align: center;
+	color: #909090;
+    font-size: 14px;
+    text-decoration: none;
+    font-family: HBIOS-SYS;
+}
