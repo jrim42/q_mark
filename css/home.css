@@ -1,0 +1,69 @@
+@font-face {
+    src: url("../fonts/HBIOS-SYS-prop.ttf");
+    font-family: HBIOS-SYS;
+	font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    text-align: center;
+    color: #909090;
+    background-color: #000000;
+}
+
+h1 {
+	border-bottom-width:1;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 70px;
+    margin-bottom: 10px;
+    color: #ffffff;
+    font-family: HBIOS-SYS;
+}
+
+input.underline { 
+	border-left-width:0; 
+	border-right-width:0; 
+	border-top-width:0; 
+	border-bottom-width:1;
+	outline: none;
+	width:160px;
+	height:16px;
+    text-align: center;
+	background-color: transparent;
+	padding-bottom: 5px;
+    font-size: 15px;
+	color: #ffffff;
+    font-family: HBIOS-SYS;
+}
+
+.home {
+	width: 500px;
+	margin: 200px auto auto auto;
+	text-align: center;
+}
+
+.home p {
+    font-size: 14px;
+    font-family: HBIOS-SYS;
+}
+
+.home a {
+    text-align: center;
+	color: #ffffff;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	border: #ffffff;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: HBIOS-SYS;
+}
+
+.logout a {
+    text-align: center;
+	color: #909090;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+    font-size: 14px;
+    text-decoration: none;
+    font-family: HBIOS-SYS;
+}

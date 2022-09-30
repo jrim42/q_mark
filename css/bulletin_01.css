@@ -4,6 +4,48 @@
 	font-family: 'Courier New', Courier, monospace;
 }
 
+* {
+    box-sizing: border-box;
+}
+
+/* navbar */
+.navbar {
+    height: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.navbar #home {
+	color: #ffffff;
+    font-size: 15px;
+    margin-left: 10px;
+	float: left;
+    line-height: 80px;
+}
+
+.navbar #menu {
+    float: right;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-right: 10px;
+}
+
+.navbar #menu li {
+    float: left;
+    margin-left: 40px;
+    line-height: 80px;
+}
+
+.navbar #menu li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+/*  */
+
 body {
     text-align: center;
     background-color: #000000;
@@ -31,6 +73,11 @@ section.notice {
 	text-align: center;
 }
   
+.tagging {
+	font-size: 14px;
+	color: #bbbbbb;
+}
+
 #board-search .search-window {
     font-family: HBIOS-SYS;
 	padding: 50px 0;
@@ -104,8 +151,24 @@ section.notice {
 	text-align: center;
 }
 
-.board-table .th-date {
-	width: 200px;
+.board-table .th-title {
+	text-align: center;
+	width: 250px;
+}
+
+.board-table .th-artist {
+	text-align: center;
+	width: 250px;
+}
+
+.board-table .th-detail {
+	text-align: center;
+	width: 700px;
+}
+
+.board-table .th-check {
+	text-align: center;
+	width: 100px;
 }
 
 .board-table th, .board-table td {

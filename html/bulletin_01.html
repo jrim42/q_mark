@@ -6,13 +6,29 @@
 	<title>bulletin</title>
 </head>
 <body>
+	<div class="navbar">
+		<a href="home.html" id="home">> 물음표</a>
+		<ul id="menu">
+			<li><a href="bulletin_01.html">무엇을?</a></li>
+			<li><a href="#">언제?</a></li>
+			<li><a href="team.html">팀선택?</a></li>
+			<li><a href="#">내정보?</a></li>
+			<li><a href="login.html">로그아웃?</a></li>
+		</ul>
+	</div>
 	<section class="notice">
 		<div class="page-title">
 				<div class="container">
-					<h3>게시판</h3>
+					<h3>무엇을? (곡 게시판)</h3>
 				</div>
 			</div>
 		
+		<div class="tagging">
+			<p>(여기서 태그나 정렬 방식을 선택할 수 있으면 좋겠어요)</p>
+			<br><br>
+			<p>(곡 추가하기 버튼은 어디에 넣으면 좋을까요?)</p>
+			<br><br><br>
+		</div>
 	<!-- board list area -->
 		<div id="board-list">
 			<div class="container">
@@ -20,41 +36,57 @@
 					<thead>
 					<tr>
 						<th scope="col" class="th-num">번호</th>
-						<th scope="col" class="th-title">제목</th>
-						<th scope="col" class="th-writer">작성자</th>
-						<th scope="col" class="th-date">등록일</th>
+						<th scope="col" class="th-title">곡 제목</th>
+						<th scope="col" class="th-artist">아티스트</th>
+						<th scope="col" class="th-detail">소개</th>
+						<th scope="col" class="th-check">상태</th>
+						<!-- <th scope="col" class="th-writer">작성자</th> -->
+						<!-- <th scope="col" class="th-date">등록일</th> -->
 					</tr>
 					</thead>
 					<tbody>
 					<tr>
+						<td>05</td>
+						<td>월드투어</td>
+						<td>
+						<a href="#!">보수동쿨러 X 해서웨이</a>
+						</td>
+						<td>월드투어로 우리 모두 가족이 되어봅시다</td>
+						<td>모집중</td>
+					</tr>
+
+					<tr>
 						<td>04</td>
-						<th>
-						<a href="#!">아침 기도시간에 들으면 좋은 플레이리스트 추천</a>
-						<p>테스트</p>
-						</th>
-						<td>툴사랑해요</td>
-						<td>2022-11-12</td>
+						<td>invincible</td>
+						<td>
+						<a href="#!">TOOL</a>
+						</td>
+						<td>제발 합주하게 해주세요. 이 곡은 뜨거운!</td>
+						<td>모집중</td>
 					</tr>
 
 					<tr>
 						<td>03</td>
-						<th><a href="#!">제발 합주하게 해주세요. 이 곡은 뜨거운!</a></th>
-						<td>여러분의노예</td>
-						<td>2022-11-28</td>
+						<td>NO PAIN</td>
+						<td><a href="#!">실리카겔</a></td>
+						<td>훔치려고 모인 자경단끼리 합주 좀 합시다. 어서 모이세요.</td>
+						<td>모집완료</td>
 					</tr>
 
 					<tr>
 						<td>02</td>
-						<th><a href="#!">이 곡은 당신의 박자감각을 시험합니다. (당장 클릭해보세요)</a></th>
-						<td>이상한박자가좋아요</td>
-						<td>2022-11-23</td>
+						<td>Polydream</td>
+						<td><a href="#!">다브다</a></td>
+						<td>노래가 정말 좋습니다... 츄라이... 츄라이...</td>
+						<td>모집중</td>
 					</tr>
 
 					<tr>
 						<td>01</td>
-						<th><a href="#!">중금속은 몸에 해롭지만 중금속 음악은 좋습니다.</a></th>
-						<td>대중성수호자</td>
-						<td>2022-11-03</td>
+						<td><a href="#!">Disturbed</a></td>
+						<td>Down with the Sickness</td>
+						<td>ㅗㅏㅏㅏㅏ</td>
+						<td>모집완료</td>
 					</tr>
 					</tbody>
 				</table>
@@ -76,11 +108,6 @@
 			</div>
 		</div>
 
-		<div class="logout">
-			<a href="team.html">팀을 다시 고를까요?</a>
-			<br><br>
-			<a href="login.html">로그아웃 할까요?</a>
-		</div>
 	</section>
 </body>
 </html>
